@@ -3,7 +3,7 @@ import React from "react";
 export function Card({ children, className = "", ...props }) {
   return (
     <div
-      className={`bg-white rounded-lg shadow p-4 ${className}`}
+      className={`bg-white rounded-2xl shadow-lg p-4 ${className}`}
       {...props}
     >
       {children}
@@ -14,4 +14,6 @@ export function Card({ children, className = "", ...props }) {
 export function CardContent({ children, className = "" }) {
   return <div className={className}>{children}</div>;
 }
+
+
 
